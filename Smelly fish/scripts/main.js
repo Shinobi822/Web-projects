@@ -1,0 +1,1 @@
+alert("Welcome to the BIG FAT smelly fish shop!");     
