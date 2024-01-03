@@ -11,19 +11,31 @@
 </head>
 
 <body>
-   <h1>Plans for the year</h1>
+   <header>
+   <h1>My goals for the year</h1>
+<nav aria-label="primary-navigation">
+   <ul>
+      <li><a href="#html">Learn HTML</a></li>
+      <li><a href="#holiday">Explore holiday ideas</a>
+   </li>
+   </ul>
+</nav>
+</header>
+
 
    <hr>
-<ul>
-<li><a href="#html">Learn HTML</a></li>
-<li><a href="#holiday">Explore holiday ideas</a></li>
-
-</ul>
-   <hr>
-   <section id="html">
+   <main>
+   <article id="html">
    <h2>I'm ready to learn all about HTML</h2>
    <p>This is my first webpage.</p>
+   <section>
+      <h3>HTML5</h3>
    <img src="img/html_logo_300x300.png" alt="HTML5 Logo" title="I am learning HTML5" width="300" height="300">
+   <figure><figcaption>An example of HTML code</figcaption></figure></section>
+
+   &lt;h1&gt; Hello World! &lt;/h1&gt;
+   
+   <section>
    <h3>My daily schedule</h3>
    <p>My daily schedule includes:</p> 
     <ol>
@@ -31,22 +43,61 @@
     <li>Lunch</li>
     <li>Dinner <ABBr title="Mozilla Developer Network"><a href="https://developer.mozilla.org/" > MDN </a> </ABBr></li>
     </ol>
+    <aside>  
+      <details>
+         <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+         <p>I start at <time datetime="08:00">8am </time> and i write code for <time datetime="PT3H">3 hours </time>every morning</p>
+      </details>
+    </aside>
+    <br>
+    <table>
+      <th>Time</th>
+      <th>Activity</th>
+      <tr>
+         <td>
+            <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+      </td>
+      <td>Write code</td>
+      </tr>
+      <tr>
+         <td>
+            <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+      </td>
+      <td>Eat lunch</td>
+      </tr>
+      <tr>
+         <td>
+            <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+      </td>
+      <td>Study for other courses</td>
+      </tr>
+      <tr><td colspan="2">Free time</td></tr>
+    </table>
    </section>
+   </article>
    <hr>
-   <section id="holiday">
+<figure>
+   <img src="https://dummyimage.com/300" alt="This is an image with absolute reference" width="300" height="300" title="This is a test of an absolute reference"><figcaption>This is an absolute reference</figcaption></figure>
+<hr>
+<figure><img src="img/purpletestimage.png" alt="This is a relative reference" title="This is a relative reference" width="550" height="400" loading="lazy"><figcaption>This is a test of a relative image reference </figcaption></figure>
+
+<hr>
+
+<article id="holiday">
    <h2>I am also planning a holiday</h2>
    <p>I have been working hard and I <em>really need a getaway.</em></p>
-   
+   <section>
    <h3>Places i would like to visit</h3>
    <ul>
-   <li><p>hawaiian islands sounds good</p></li>
+   <li><p>Caribbean beach sounds good!</p><figure><img src="img/caribbean.jpg" alt="caribbean beach" title="I want to visit a Caribbean beach" width="400" height="225" loading="lazy"><figcaption>Caribbean beach getaway</figcaption></figure></li>
    <li><p>This place also looks good: </p> <address> 1 Smith Ave <br>
     Paradise town <br>
-    Aswomeville, 23666 </address></li>
+    Aswomeville, 23666 </address> <figure><img src="img/vacation.jpg" alt="Cancun holiday" title="It's 5 o'clock somewhere!" width="400" height="267" loading="lazy"><figcaption>Cancun holiday resort baby!</figcaption></figure></li>
     </ul>
-   
+   </section>
     <!--TODO: Add more addresses to list-->
-   
+
+   <section>
    <h3>Places i would like to avoid</h3>
 
    <dl>
@@ -61,12 +112,15 @@
 
 </dl>
 </section>
-   
+</article>
+</main>   
 
    <hr>
+<footer>
+   <p>&lt;&lt;&lt; &copy; <a href="about.html"> leet programmer </a> &gt;&gt;&gt;
+   <a href="#">Back to top</a></p>
 
-   &lt;&lt;&lt; &copy; <a href="about.html"> leet programmer </a> &gt;&gt;&gt;
-   <a href="#">Back to top</a>
+</footer>
   </body>
 
 </html>
